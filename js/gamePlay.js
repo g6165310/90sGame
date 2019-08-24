@@ -40,37 +40,37 @@ const gamePlay = {
     this.trashArr = [];
     this.jellyfishArr = [];
     // music
-    this.load.audio('bg_music', '../assets/Sea_Ritual.mp3');
+    this.load.audio('bg_music', './assets/Sea_Ritual.mp3');
 
     // background
-    this.load.image('bg1', '../assets/bg/bg1.png');
-    this.load.image('bg2', '../assets/bg/bg2.png');
-    this.load.image('bg3', '../assets/bg/bg3.png');
-    this.load.image('rock1', '../assets/bg/map1_rock.png');
-    this.load.image('rock2', '../assets/bg/map2_rock.png');
-    this.load.image('rock3', '../assets/bg/map3_rock.png');
+    this.load.image('bg1', 'assets/bg/bg1.png');
+    this.load.image('bg2', 'assets/bg/bg2.png');
+    this.load.image('bg3', 'assets/bg/bg3.png');
+    this.load.image('rock1', 'assets/bg/map1_rock.png');
+    this.load.image('rock2', 'assets/bg/map2_rock.png');
+    this.load.image('rock3', 'assets/bg/map3_rock.png');
     // UI
-    this.load.image('lifeUI', '../assets/ui/turtlelife.png');
-    this.load.image('cross', '../assets/button/button_close.png');
-    this.load.image('timeUI', '../assets/ui/timebubble.png');
-    this.load.image('btnHint', '../assets/button/button_hint2.png');
-    this.load.image('hint', '../assets/ui/hint.png');
+    this.load.image('lifeUI', 'assets/ui/turtlelife.png');
+    this.load.image('cross', 'assets/button/button_close.png');
+    this.load.image('timeUI', 'assets/ui/timebubble.png');
+    this.load.image('btnHint', 'assets/button/button_hint2.png');
+    this.load.image('hint', 'assets/ui/hint.png');
     // turtle
-    this.load.spritesheet('turtle', '../assets/sprite/turtlemove.png', {
+    this.load.spritesheet('turtle', 'assets/sprite/turtlemove.png', {
       frameWidth: 400,
       frameHeight: 400,
     });
     // trash
-    this.load.image('can', '../assets/sprite/trash1.png');
-    this.load.image('bottle', '../assets/sprite/trash2.png');
-    this.load.image('bag', '../assets/sprite/trash3.png');
-    this.load.image('net', '../assets/sprite/trash4.png');
+    this.load.image('can', 'assets/sprite/trash1.png');
+    this.load.image('bottle', 'assets/sprite/trash2.png');
+    this.load.image('bag', 'assets/sprite/trash3.png');
+    this.load.image('net', 'assets/sprite/trash4.png');
     // jellyfish
-    this.load.image('jellyfish', '../assets/sprite/jellyfish.png');
+    this.load.image('jellyfish', 'assets/sprite/jellyfish.png');
     // gameover
-    this.load.image('game_fail', '../assets/ui/gameover_1.png');
-    this.load.image('game_success', '../assets/ui/gameover_2.png');
-    this.load.image('btnRestart', './assets/button/button_playagain.png');
+    this.load.image('game_fail', 'assets/ui/gameover_1.png');
+    this.load.image('game_success', 'assets/ui/gameover_2.png');
+    this.load.image('btnRestart', 'assets/button/button_playagain.png');
   },
   create() {
     this.bg_music = this.sound.add('bg_music');

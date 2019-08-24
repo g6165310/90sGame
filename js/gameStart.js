@@ -2,13 +2,13 @@ const gameStart = {
   key: 'gameStart',
   preload() {
     // background
-    this.load.image('bg', '../assets/bg/bg0.png');
+    this.load.image('bg', 'assets/bg/bg0.png');
     // btnStart
-    this.load.image('btnStart', '../assets/button/button_play.png');
+    this.load.image('btnStart', 'assets/button/button_play.png');
     // hint
-    this.load.image('btnHint', '../assets/button/button_hint.png');
-    this.load.image('btnClose', '../assets/button/button_close.png');
-    this.load.image('hint', '../assets/ui/hint.png');
+    this.load.image('btnHint', 'assets/button/button_hint.png');
+    this.load.image('btnClose', 'assets/button/button_close.png');
+    this.load.image('hint', 'assets/ui/hint.png');
   },
   create() {
     // background
