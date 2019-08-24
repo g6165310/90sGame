@@ -1,0 +1,104 @@
+{
+  "textures": [
+    {
+      "image": "player.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 168,
+        "h": 247
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "003.png",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 86,
+            "h": 121
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 86,
+            "h": 121
+          },
+          "frame": {
+            "x": 1,
+            "y": 1,
+            "w": 86,
+            "h": 121
+          }
+        },
+        {
+          "filename": "002.png",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 84,
+            "h": 122
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 84,
+            "h": 122
+          },
+          "frame": {
+            "x": 1,
+            "y": 124,
+            "w": 84,
+            "h": 122
+          }
+        },
+        {
+          "filename": "001.png",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 80,
+            "h": 120
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 80,
+            "h": 120
+          },
+          "frame": {
+            "x": 87,
+            "y": 124,
+            "w": 80,
+            "h": 120
+          }
+        },
+        {
+          "filename": "004.png",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 78,
+            "h": 120
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 78,
+            "h": 120
+          },
+          "frame": {
+            "x": 89,
+            "y": 1,
+            "w": 78,
+            "h": 120
+          }
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "app": "https://www.codeandweb.com/texturepacker",
+    "version": "3.0",
+    "smartupdate": "$TexturePacker:SmartUpdate:1eb8c46e0618396f8d969588e14e2882:a65d018c57cfa7806e5134f5489f5e42:86d5339b780aedd87b35e2b7c0a7e11b$"
+  }
+}
